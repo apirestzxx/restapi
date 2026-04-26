@@ -1,0 +1,33 @@
+{
+  "name": "cdn-uploader",
+  "version": "1.0.0",
+  "description": "CDN uploader via GitHub repo with proxy and auto delete",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IkyyExecutive-v2/IkyySukaNgewe.git"
+  },
+  "keywords": [
+    "cdn",
+    "uploader",
+    "github",
+    "proxy",
+    "nodejs"
+  ],
+  "author": "Rizki Ikyy",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.0",
+    "crypto": "^1.0.1",
+    "express": "^4.22.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
